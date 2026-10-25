@@ -466,6 +466,7 @@ If you want to use a custom component as your <Content />, you can use the creat
         onCloseMenu={() => {
           props.onOpenChange?.(false)
         }}
+        uiKit='auto'
       >
         {triggerItem}
       </MenuView>
